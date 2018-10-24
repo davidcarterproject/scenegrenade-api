@@ -1,0 +1,3 @@
+# scenegrenade-api
+
+npm init
