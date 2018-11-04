@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "debug": "node inspect server.js",
+    "debug": "nodemon --inspect-brk server.js",
     "server": "nodemon server.js"
   },
   "repository": {
