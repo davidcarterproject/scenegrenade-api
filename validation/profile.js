@@ -22,10 +22,6 @@ module.exports = function validateProfileInput(data) {
     }
   }
 
-  if (Validator.isEmpty(data.password)) {
-    errors.name = "Password field is required";
-  }
-
   return {
     errors,
     isValid: isEmpty(errors)
